@@ -4,22 +4,20 @@ channels:
 - defaults
 - conda-forge
 dependencies:
-- python=3.6
-- pywin32
 - pandas
 - numpy
 - dill
-- scipy
+- scipy=1.6.2
 - pillow
 - cython
-- matplotlib=3.0.1
+- matplotlib
 - scikit-image
 - h5py
 - ipython
 - jupyter
 - jupyterlab
 - tensorflow-gpu
-- keras=2.1.3
+- keras
 - imgaug
 - opencv
 - seaborn
