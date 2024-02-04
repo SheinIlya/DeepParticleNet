@@ -61,9 +61,9 @@ class Model(MaskRCNN):
                                 layers=self.config.LAYERS,
                                 augmentation=self.config.AUGMENTATION,
                                 custom_callbacks=self.config.CUSTOM_CALLBACKS,
-                                no_augmentation_sources=self.config.NO_AUGMENTATION_SOURCES,
-                                save_best_only=save_best_only,
-                                monitored_quantity='val_loss')
+                                no_augmentation_sources=self.config.NO_AUGMENTATION_SOURCES)
+                                #save_best_only=save_best_only,
+                                #monitored_quantity='val_loss')
 
         return history
 
