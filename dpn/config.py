@@ -24,7 +24,7 @@ class Config(MrcnnConfig, Storable):
     MAX_GT_INSTANCES = 200
     LAYERS = "all"
     LEARNING_RATE = 0.01
-    EPOCHS = 10000
+    EPOCHS = 5
 
     def __init__(self):
         """Create and initialize a configuration."""
